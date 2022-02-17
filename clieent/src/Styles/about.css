@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 500px;
+}
+.container input{
+    width: 500px;
+    height: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.container input[type="text"]{
+    font-size: 17px;
+}
+.container input::placeholder{
+    font-size: 17px;
+}
+.container button{
+    width: 524px;
+    padding: 9px;
+    margin-top: 10px;
+    background-color: #2874f0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
